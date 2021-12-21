@@ -1,7 +1,9 @@
 #projects{
   width:75%;
 }
-
+#top{
+  background-color: white;
+}
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
@@ -41,8 +43,6 @@ img {
   }
 }
 body {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
     color: #5a5a5a;
   }
   
