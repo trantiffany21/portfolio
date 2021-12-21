@@ -1,9 +1,37 @@
+section{
+}
+
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
+}
+img {
+  background-size: 100% 100%; 
+}
+.shadow{
+  box-shadow: 10px 10px 5px #ccc;
+  -moz-box-shadow: 10px 10px 5px #ccc;
+  -webkit-box-shadow: 10px 10px 5px #ccc;
+  -khtml-box-shadow: 10px 10px 5px #ccc;
+
+}
+.slide{
+  height: 50%;
+  width: 50%;
+}
+.slide-container{
+  position: relative;
+  text-align: center;
+}
+.center-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
 }
 
 @media (min-width: 768px) {
