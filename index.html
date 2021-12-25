@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Tiffany Tran</title>
 </head>
@@ -13,23 +14,30 @@
 <body>
     <div id="top" class="uk-margin-remove" uk-sticky="top">
         <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+            <div class="uk-navbar-left">
+                <ul class="uk-navbar-nav">
+                    <li><span
+                        class=" uk-margin-medium-left ">
+                        <img class="uk-border-rounded uk-box-shadow-large" src="images/digital-me.png" height="75" width="50" alt="cartoon headshot">
+                    </span></li>
+                </ul>
+            </div>
             <div class="uk-navbar-center">
                 <ul class="uk-navbar-nav">
                     <li class="uk-active"><a href="#" uk-scroll>Tiffany Tran</a></li>
-                    <li><a href="#projects" uk-scroll>Projects</a> </li>                    
-                    <li><a href="#testimonies" uk-scroll>Testimonies</a></li>
+                    <li><a href="#projects-anchor" uk-scroll>Projects</a> </li>
+                    <li><a href="#skills-anchor" uk-scroll>Skills</a></li>
+                    <li><a href="#testimonies-anchor" uk-scroll>Testimonies</a></li>
                 </ul>
-
             </div>
             <div class="uk-navbar-right">
-
                 <ul class="uk-navbar-nav">
                     <li><a target="_blank" rel="noopener noreferrer"
                             href="https://www.linkedin.com/in/tran-tiffany-t/"><span
                                 class="uk-icon uk-margin-small-right" uk-icon="icon: linkedin"></span></a></li>
                     <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/trantiffany21"><span
                                 class="uk-icon uk-margin-small-right" uk-icon="icon: github"></span></a></li>
-                    <li><a href="#"><span class="uk-icon uk-margin-small-right"
+                    <li><a href="https://docs.google.com/document/d/1bWXIXRJwjLiQReB_7QSBM9q5EyhcUcpBHZsRcUXRy-8/export?format=pdf" download><span class="uk-icon uk-margin-small-right"
                                 uk-icon="icon: download"></span>Resume</a></li>
                 </ul>
 
@@ -37,94 +45,136 @@
         </nav>
     </div>
     <main class="">
-
-        <section class="uk-margin-medium-bottom uk-margin-medium-right uk-margin-medium-top">
-            <div id="statement" class="uk-align-center uk-flex uk-flex-right uk-flex-bottom uk-flex-column uk-width-1-2 uk-child-width-expand@s" uk-grid>
-                <div class="uk-card uk-card-default uk-card-body">
-                <p class="uk-text-italic">"Hello! I am a software developer that thrives in collaborating with team mates and promoting inspiration through mentorship. My background in consulting is rooted in solving complex problems with open-communication, organization, and efficiency. My work ethic is founded on being an approachable team-player who will achieve results while maintaining principles of integrity, compassion, and accountability."</p>
-            </div>
+        
+        <section class="uk-margin-medium-bottom uk-margin-medium-right uk-margin-medium-top uk-margin-medium-left uk-flex uk-flex-center">
+            <div id="about-me"
+                class="uk-flex uk-flex-center"
+                uk-grid>
+                <div class="uk-width-1-3@m uk-margin-large-left">
+                    <img class="uk-border-rounded uk-box-shadow-large" width="200" height="200" src="images/headshot.png" alt="Headshot">
+                </div>
+                <div class=" uk-width-1-2@m">
+                    <p class="uk-text-italic">"Hello! I am a former digital forensics and e-Discovery consultant turned <strong>Software Developer </strong>that thrives in collaborating with team
+                        mates and promoting inspiration through mentorship. My background in consulting is rooted in
+                        solving complex problems with <strong>open-communication, organization, and efficiency</strong>. My work ethic is
+                        founded on being an approachable team-player who will achieve results while maintaining
+                        principles of <strong>integrity, compassion, and accountability</strong>."</p>
+                </div>
             </div>
 
         </section>
 
-        
-        <hr class="uk-grid-divider">
+        <div class="uk-flex uk-flex-column uk-flex-middle">
+            <hr id="projects-anchor" class="anchor" class="uk-grid-divider">
+        </div>
         <section id="projects" class="uk-align-center uk-flex uk-flex-middle uk-flex-column">
-                <div class="uk-h3">Featured Projects:</div>
-                <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
-                    <div>
-                        <div class="uk-card uk-card-small uk-card-default uk-card-hover uk-card-body">
-                            <div class="uk-card-media-top">
-                                <img src="images/LifeontheNode.png" alt="Life on the Node">
-                            </div>
-                            <div class="uk-card-body">
-                                <h3 class="uk-card-title">Life on the Node</h3>
-                                <ul>
-                                    <li>React</li>
-                                    <li>Python</li>
-                                    <li>Flask</li>
-                                    <li>Node.js</li>
-                                </ul>
-                            </div>
+            <div class="uk-h2">Featured Projects:</div>
+            <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
+                <div>
+                    <div class="uk-card uk-card-small uk-card-default uk-card-hover uk-card-body">
+                        <div class="uk-card-media-top">
+                            <img src="images/LifeontheNode.png" alt="Life on the Node">
                         </div>
-                    </div>
-                    <div>
-                        <div class="uk-card uk-card-small uk-card-default uk-card-hover uk-card-body">
-                            <div class="uk-card-media-top">
-                                <img src="images/TheConcertDropout.png" alt="The Concert Dropout">
-                            </div>
-                            <div class="uk-card-body">
-                                <h3 class="uk-card-title">The Concert Dropout</h3>
-                                <ul>
-                                    <li>React</li>
-                                    <li>Mongoose</li>
-                                    <li>Express</li>
-                                    <li>Node.js</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="uk-card uk-card-small uk-card-default uk-card-hover uk-card-body">
-                            <div class="uk-card-media-top">
-                                <img src="images/MisEnPlace-atHome.png" alt="Mis en Place at Home">
-                            </div>
-                            <div class="uk-card-body">
-                                <h3 class="uk-card-title">Mis en Place at Home</h3>
-                                <ul>
-                                    <li>Javascript</li>
-                                    <li>HTML/CSS</li>
-                                    <li>Mongoose</li>
-                                    <li>Express</li>
-                                    <li>Node.js</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="uk-card uk-card-small uk-card-default uk-card-hover uk-card-body">
-                            <div class="uk-card-media-top">
-                                <img src="images/StarFighter.png" alt="Starfighter">
-                            </div>
-                            <div class="uk-card-body">
-                                <h3 class="uk-card-title">Starfighter</h3>
-                                <ul>
-                                    <li>Javascript</li>
-                                    <li>HTML/CSS</li>
-                                    <li>Canvas API</li>
-                                </ul>
-                            </div>
+                        <div class="uk-card-body">
+                            <h3 class="uk-card-title">Life on the Node</h3>
+                            <ul>
+                                <li>React</li>
+                                <li>Python</li>
+                                <li>Flask</li>
+                                <li>Node.js</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
+                <div>
+                    <div class="uk-card uk-card-small uk-card-default uk-card-hover uk-card-body">
+                        <div class="uk-card-media-top">
+                            <img src="images/TheConcertDropout.png" alt="The Concert Dropout">
+                        </div>
+                        <div class="uk-card-body">
+                            <h3 class="uk-card-title">The Concert Dropout</h3>
+                            <ul>
+                                <li>React</li>
+                                <li>Mongoose</li>
+                                <li>Express</li>
+                                <li>Node.js</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-small uk-card-default uk-card-hover uk-card-body">
+                        <div class="uk-card-media-top">
+                            <img src="images/MisEnPlace-atHome.png" alt="Mis en Place at Home">
+                        </div>
+                        <div class="uk-card-body">
+                            <h3 class="uk-card-title">Mis en Place at Home</h3>
+                            <ul>
+                                <li>Javascript</li>
+                                <li>HTML/CSS</li>
+                                <li>Mongoose</li>
+                                <li>Express</li>
+                                <li>Node.js</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-small uk-card-default uk-card-hover uk-card-body">
+                        <div class="uk-card-media-top">
+                            <img src="images/StarFighter.png" alt="Starfighter">
+                        </div>
+                        <div class="uk-card-body">
+                            <h3 class="uk-card-title">Starfighter</h3>
+                            <ul>
+                                <li>Javascript</li>
+                                <li>HTML/CSS</li>
+                                <li>Canvas API</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <hr class="uk-grid-divider">
+        <div class="uk-flex uk-flex-column uk-flex-middle">
+            <hr id="skills-anchor" class="anchor" class="uk-grid-divider">
+        </div>
 
-        <section id="testimonies" class="uk-margin-medium-bottom uk-margin-medium-left uk-margin-medium-top">
+        <section id="skills" class="uk-align-center uk-flex uk-flex-middle uk-flex-column">
+            <div class="uk-h2">Skills</div>
+            <div class="uk-align-center uk-flex uk-flex-wrap">
+                <i class="devicon-javascript-plain"></i>
+                <i class="devicon-python-plain-wordmark colored"></i>
+                <i class="devicon-react-original-wordmark colored"></i>
+                <i class="devicon-java-plain-wordmark"></i>
+                <i class="devicon-perl-plain colored"></i>
+                <i class="devicon-nodejs-plain-wordmark"></i>
+                <i class="devicon-express-original-wordmark"></i>
+                <i class="devicon-flask-original-wordmark colored"></i>
+                <i class="devicon-postgresql-plain-wordmark colored"></i>
+                <i class="devicon-sqlalchemy-original-wordmark colored"></i>
+                <i class="devicon-mongodb-plain-wordmark colored"></i>
+                <i class="devicon-microsoftsqlserver-plain-wordmark"></i>
+                <i class="devicon-npm-original-wordmark colored"></i>
+                <i class="devicon-bash-plain colored"></i>
+                <i class="devicon-git-plain-wordmark colored"></i>
+                <i class="devicon-github-original-wordmark"></i>
+                <i class="devicon-heroku-line-wordmark colored"></i>
+                <i class="devicon-bootstrap-plain-wordmark colored"></i>
+                <i class="devicon-html5-plain-wordmark colored"></i>
+            </div>
+
+        </section>
+
+        <div class="uk-flex uk-flex-column uk-flex-middle">
+            <hr id="testimonies-anchor" class="anchor" class="uk-grid-divider">
+        </div>
+
+        <section id="testimonies" class="uk-margin-medium-bottom uk-margin-medium-left ">
 
             <div class="uk-flex uk-flex-left uk-flex-column">
-                <div class="uk-h3">Testimonies:</div>
+                <div class="uk-h2">Testimonies:</div>
                 <div class="uk-position-relative uk-visible-toggle uk-light slide slide-container shadow " tabindex="-1"
                     uk-slideshow="animation: push" uk-slider="center: true">
 
@@ -132,7 +182,7 @@
                         <li>
                             <a target="_blank" rel="noopener noreferrer"
                                 href="https://lifeonthenode.herokuapp.com/"><img class="slide"
-                                    src="images/LifeontheNode.png" alt="Star Fighter" uk-cover></a>
+                                    src="images/LifeontheNode.png" alt="Life on the Node" uk-cover></a>
                         </li>
                         <li>
                             <div class="slide">
@@ -164,14 +214,7 @@
                 </div>
         </section>
         <footer>
-            <a class="uk-align-right" href="#" uk-totop uk-scroll>Back to Top</a>
-            <!-- uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
-            <nav class="uk-navbar-container" uk-navbar style="position: relative; z-index: 980;">
-
-                <div class="uk-navbar-right">
-                    <p>&copy; 2021 Tiffany Tran &middot; </p>
-                </div>
-            </nav> -->
+            <a class="uk-align-right" href="#" uk-totop uk-scroll>Back to Top</a>\
         </footer>
     </main>
 
