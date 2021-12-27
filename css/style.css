@@ -13,7 +13,7 @@ body{
   width:75%;
 }
 #top{
-  background-color: white;
+  background: white;
 }
 #skills{
   width:75%;
@@ -28,6 +28,9 @@ hr{
 }
 .anchor{
   margin-left: 25px;
+}
+.list{
+  list-style-type: none;
 }
 i{
   font-size: 50px;
@@ -73,8 +76,9 @@ img {
     font-size: 3.5rem;
   }
 }
-body {
-    color: #5a5a5a;
-  }
+#cartoon{
+  background-color: transparent;
+  height:100px;
+}
   
   
