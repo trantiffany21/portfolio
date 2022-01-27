@@ -6,17 +6,11 @@ body{
 .uk-h2{
   font-family: 'Roboto Mono', monospace;
 }
-#projects{
-  width:75%;
-}
-#about-me{
+#home, #about-me, #projects, #skills{
   width:75%;
 }
 #top{
   background: white;
-}
-#skills{
-  width:75%;
 }
 #skills-container{
   display:flex;
@@ -63,6 +57,11 @@ img {
   position: relative;
   text-align: center;
 }
+.slideshow-wrapper{
+  height:100%;
+  width:100%;
+  object-fit: contain;
+}
 .center-text{
   position: absolute;
   top: 50%;
@@ -81,6 +80,9 @@ img {
 }
 .project-description{
   background: white;
+}
+strong{
+  color: #bf5700;
 }
   
   
