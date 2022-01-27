@@ -80,6 +80,9 @@ img {
 }
 .project-description{
   background: white;
+  height: 100%;
+  width: 100%;
+  padding:20px;
 }
 strong{
   color: #bf5700;
